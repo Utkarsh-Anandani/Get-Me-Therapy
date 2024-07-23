@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bg-url1{
+  background-image: url('./assets/onboarding1.png');
+}
+
+.bg-url2{
+  background-image: url('./assets/onboarding-2.png');
+}
+
+.bg-url3{
+  background-image: url('./assets/onboarding-3.png');
+}
+
+.act{
+  background-color: white;
+}
+
+.deact{
+  background-color: rgb(207, 203, 203);
+}
+
+.tracking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+.react-clock{
+  height: 40px;
+  width: 40px;
+}
+

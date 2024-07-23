@@ -7,7 +7,7 @@ const Tracking = () => {
     const query = new URLSearchParams(useLocation().search);
     const initialSpeed = query.get('speed') ? parseFloat(query.get('speed')) : 1;
     const [speed, setSpeed] = useState(initialSpeed);
-    const [quote, setquote] = useState('');
+    const [quote, setquote] = useState('If newspapers were a baseball team, they would be the Mets - without the hope for those folks at the very pinnacle of the financial food chain - who average nearly $24 million a year in income - next year.');
 
 
     const category = 'food';

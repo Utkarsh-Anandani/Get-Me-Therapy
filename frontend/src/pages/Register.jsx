@@ -11,7 +11,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     console.log({ username, email, password });
     e.preventDefault();
-    const response = await fetch('http://localhost:3000/register', {
+    const response = await fetch('https://get-me-therapy-api.vercel.app/register', {
       method: 'POST',
       body: JSON.stringify({ username, email, password }),
       headers: { 'Content-Type': 'application/json' }

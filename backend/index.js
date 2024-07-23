@@ -10,7 +10,7 @@ const User = require('./models/User')
 const app = express();
 app.use(cookieParser());
 app.use(express.json());
-app.use(cors({ credentials: true, origin: 'http://localhost:5173' }))
+app.use(cors({ credentials: true, origin: 'https://get-me-therapy-client.vercel.app' }))
 
 const salt = bcrypt.genSaltSync(10);
 const secret = "ajhhdueujjwjdjncnejjiwijdnsnnd";

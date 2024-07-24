@@ -11,7 +11,7 @@ const Onboarding = ({popup}) => {
   }
 
   return (
-    <div id='background' className={slide === 1 ? 'bg-url1 h-full w-full bg-center bg-no-repeat bg-cover transform relative z-0 overflow-hidden' : slide === 2 ? 'bg-url2 h-full w-full bg-center bg-no-repeat bg-cover relative transform' : slide === 3 ? 'bg-url3 h-full w-full bg-center bg-no-repeat bg-cover relative transform' : ''}>
+    <div id='background' className={slide === 1 ? 'bg-url1 h-full w-full bg-center bg-no-repeat bg-cover transform relative z-0 overflow-hidden' : slide === 2 ? 'bg-url2 h-full w-full bg-center bg-no-repeat bg-cover relative transform overflow-hidden' : slide === 3 ? 'bg-url3 h-full w-full bg-center bg-no-repeat bg-cover relative transform overflow-hidden' : ''}>
       <div className='absolute w-[84%] h-[50vh] bottom-[4%] bg-[#FE8C00] left-[8%] right-[8%] rounded-[2.9rem] text-center py-8 px-6 flex flex-col items-center gap-4'>
         <h1 className='font-semibold text-4xl text-white mb-0'>We serve incomparable delicacies</h1>
         <p>All the best restaurants with their top menu waiting for you, they cant&apos;t wait for your order!!</p>
@@ -42,7 +42,7 @@ const Onboarding = ({popup}) => {
             </div>
           </div>}
       </div>
-      <div className={popup?'pop absolute min-h-[60vh] w-full z-10 bottom-0 transition-all ease-in-out bg-white rounded-t-[2rem]':'pop absolute min-h-[60vh] w-full z-10 bottom-[-60vh] bg-white rounded-t-[2rem] transition-all ease-in-out'}>
+      <div className={popup?'pop absolute min-h-[60vh] w-full z-10 bottom-0 transition-all ease-in-out bg-white rounded-t-[2rem]':'pop absolute min-h-[60vh] w-full z-10 bottom-[-70vh] bg-white rounded-t-[2rem] transition-all ease-in-out'}>
         <img className='h-[5px] w-[55px] bg-gray-400 mx-auto mt-3' src="../assets/Rectangle.svg" alt="" />
         <svg className='mx-auto mt-[4.25rem] mb-5' width="207" height="168" viewBox="0 0 207 168" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle opacity="0.1" cx="104.189" cy="106" r="62" fill="#FE8C00" />

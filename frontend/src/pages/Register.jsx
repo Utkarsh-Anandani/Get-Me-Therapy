@@ -45,7 +45,7 @@ const Register = () => {
 
         <div className='mb-2'>
           <label className='text-lg font-semibold'>User Name
-            <input className='w-full text-lg px-4 py-3 bg-white border border-gray-400 rounded-lg text-gray-500' placeholder='User Name' type="password" id="5"
+            <input className='w-full text-lg px-4 py-3 bg-white border border-gray-400 rounded-lg text-gray-500' placeholder='User Name' type="text" id="5"
               value={username}
               onChange={(e) => setusername(e.target.value)} />
           </label>
